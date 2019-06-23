@@ -2,7 +2,7 @@
 //Person.php
 
 
-namespace Entity;
+//namespace Entity;
 
 class Person
 {
