@@ -3,6 +3,7 @@ require_once('./vendor/autoload.php');
 //composer require guzzlehttp/guzzle
 
 $client = new \GuzzleHttp\Client();
+
 $response = $client->request('GET', 'https://api.github.com/repos/guzzle/guzzle');
 
 echo $response->getStatusCode(); # 200

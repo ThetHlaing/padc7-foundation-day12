@@ -12,8 +12,13 @@ final class Email
         $this->email = $email;
     }
 
+    public static function sum($a,$b){
+        return $a-$b;
+    }
+
     public static function fromString(string $email): self
     {
+        //return null;
         return new self($email);
     }
 
